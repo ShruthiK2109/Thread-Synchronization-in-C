@@ -5,11 +5,11 @@ Overview:
 
 The program consists of three parts:
 
-Without Locking – Two threads write to a shared file concurrently, leading to an interleaved output.
+i) Without Locking – Two threads write to a shared file concurrently, leading to an interleaved output.
 
-Using Mutex Locking – A mutex is used to ensure only one thread writes at a time, preventing race conditions.
+ii) Using Mutex Locking – A mutex is used to ensure only one thread writes at a time, preventing race conditions.
 
-Using Semaphores – A semaphore achieves the same effect as a mutex, enforcing sequential execution of threads.
+iii) Using Semaphores – A semaphore achieves the same effect as a mutex, enforcing sequential execution of threads.
 
 Implementation Details:
 
